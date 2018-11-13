@@ -1,0 +1,151 @@
+h1{
+	background-image:url(genes.jpg);
+	height:150px;
+	font-size:60px;
+	text-align:left;
+	color:#04B486;
+	padding-left:20px;
+	padding-top:80px;
+	margin-bottom:0px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-image:url(genes.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+	margin-top:0px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	padding-left:20px;
+}
+
+.navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+form.example button {
+    float: right;
+	height:33px;
+    width: 50px;
+    padding: 5px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+	margin-top:8px;
+}
+
+img {
+  border-radius: 8px; 
+}
+
+#nws{
+    text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	margin-top:0px;
+	font-style:italic;
+	color:#61210B;
+}
+
+#pic{
+	font-size:30px;
+	font-weight:bold;
+	color:#0B3861;
+	margin-left:20px;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 800px;
+	margin-left:550px;
+	margin-top:-480px;
+}
+
+.col2{
+	margin-left:600px;
+	margin-top:-740px;
+}
+
+.col3{
+	margin-left:850px;
+	margin-top:-215px;
+}
+
+.col4{
+	margin-left:1100px;
+	margin-top:-215px;
+}
+
+.col5{
+	margin-left:600px;
+}
+
+.col6{
+	margin-left:850px;
+	margin-top:-210px;
+}
+
+.col7{
+	margin-left:1100px;
+	margin-top:-210px;
+}
+
+.col8{
+	margin-left:600px;
+}
+
+.col9{
+	margin-left:850px;
+	margin-top:-220px;
+}
+
+.col10{
+	margin-left:1100px;
+	margin-top:-220px;
+}
+
+.row1{
+  display:flex;
+  background-color: #424242;
+  margin-top:10px;
+  padding: 20px;
+  font-size: 20px;
+  text-align:center;
+  justify-content:space-evenly;
+}
+.row1 li{
+	list-style-type:none;
+	padding:10px;
+}
+
+.row1 li a{
+	text-decoration:none;
+	color:#ffffff;
+	font-style:italic;
+}
+
+.logoicn {
+	margin-left:600px;
+	margin-top:80px;	
+}
+
+.logoicn a {
+	padding:5px;	
+	background-color: #424242;
+	color:white;
+}

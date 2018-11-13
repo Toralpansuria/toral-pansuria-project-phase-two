@@ -1,0 +1,116 @@
+body{
+    background-image:url(bg.jpg);	
+}
+
+h1,input,p { 
+	margin:0px;
+	padding:0px;
+}
+
+.line{
+	margin-top:-20px;
+	margin-bottom:20px;
+}
+
+#container_demo{
+	 text-align: left;
+	 margin: 0px;
+	 padding: 0px;
+	 margin: 0px auto;
+}
+
+#wrapper{
+	width: 60%;
+	min-height: 560px;	
+	margin: 0px auto;	
+	width: 500px;
+	position: relative;	
+}
+
+#wrapper h1{
+	font-size: 48px;
+	color: rgb(6, 106, 117);
+	padding: 2px 0 10px 0;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#wrapper p{
+	margin-bottom:15px;
+}
+
+#wrapper label{
+	color: rgb(64, 92, 96);
+	position: relative;
+}
+
+#wrapper input:not([type="checkbox"]){
+	width: 92%;
+	margin-top: 4px;
+	padding: 10px 5px 10px 32px;	
+	border: 1px solid rgb(178, 178, 178);
+}
+
+#wrapper p.button input{
+	width: 30%;
+	cursor: pointer;	
+	background: rgb(61, 157, 179);
+	padding: 8px 5px;
+	color: #fff;
+	font-size: 24px;	
+	border: 1px solid rgb(28, 108, 122);	
+	margin-bottom: 10px;	
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#wrapper p.button input:hover{
+	background: rgb(74, 179, 198);
+}
+
+p.login.button,
+p.signin.button{
+	text-align: right;
+	margin: 5px 0;
+}
+
+.keeplogin{
+	margin-top: -5px;
+}
+
+.keeplogin input,
+.keeplogin label{
+	font-size: 15px;	
+	font-style: italic;
+}
+
+.keeplogin input#loginkeeping{
+	margin-right: 5px;
+}
+
+p.change_link{
+	position: absolute;
+	color: rgb(127, 124, 124);
+	left: 0px;
+	height: 20px;
+	width: 440px;
+	padding: 17px 30px 20px 30px;
+	font-size: 16px	;
+	text-align: right;
+	border-top: 1px solid rgb(219, 229, 232);
+}
+
+
+#login{
+	position: absolute;
+	top: 0px;
+	width: 88%;	
+	padding: 18px 6% 60px 6%;
+	margin: 0 0 35px 0;
+	background: rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+
+}
+
+
+
